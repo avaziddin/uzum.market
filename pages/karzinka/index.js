@@ -51,6 +51,7 @@ function reload(arr) {
 
     obshaya_summa.innerHTML = sum + " сум"
 
+    
     boxi.append(reload)
     reload.append(img, left)
     img.append(img_img)
