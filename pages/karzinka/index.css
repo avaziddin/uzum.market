@@ -1,0 +1,765 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;1,900&family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cant {
+  display: flex;  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 117px;
+  z-index: 1;
+}
+.tashkent {
+    text-decoration:underline;
+}
+
+
+.location {
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px 10px ;
+}
+
+.tash {
+    display: flex;
+    gap: 30px;
+}
+
+.tashsh {
+    display: flex;
+    gap: 5px;
+}
+
+.gorod {
+    color: rgb(144, 144, 144);
+}
+
+.dast {
+    color: rgb(156, 156, 156);
+}
+
+.russia {
+    display: flex;
+    gap: 20px;
+}
+
+.rus {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+.rusimg {
+    width: 15px;
+}
+
+
+.uzum {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 120px;
+    gap: 91px;
+}
+
+.uzum-logoimg {
+    width: 30px;
+}
+.uzum-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.uzumlogoh1 {
+    color:rgba(112, 0, 255, 1);
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.aaaa {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.kat {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.uzum3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.inp-kat {
+    display: flex;
+
+}
+.russ1 {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.reloa {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+
+.katalog {
+    border-radius: 4px;
+    background: rgba(234, 234, 249, 1);
+    height: 39px;
+    width: 120px;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    color:#5200BA;
+    padding: 2px 25px;
+}
+.katalogspan {
+    font-size: 18px;
+    font-weight: 900;
+    color:rgba(112, 0, 255, 1);
+
+}
+
+
+.kat-input {
+    width: 400px;
+    height: 39px;
+    padding: 0px 10px;
+    font-size: 20px;
+    color: rgb(62, 62, 62);
+    border: 0.2px solid rgb(102, 102, 102);
+}
+
+.katsearch {
+    width: 50px;
+    height: 39px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid rgb(102, 102, 102);
+    
+}
+
+.rassrochka {
+    width: 100%;
+    padding: 20px 90px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.rass-span {
+    color: rgba(154, 165, 175, 1);
+    font-size: 20px;
+    transition: .5s;
+}
+.rass-span:hover {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-decoration: underline;
+    
+}
+
+.rass1 {
+    color: black;
+    font-weight: 600;
+}
+
+.rass {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rass span {
+    font-size: 22px;
+    font-weight: 900;
+
+}
+.russ-logo {
+    width: 20px;
+}
+
+
+.slayder {
+    width: 100%;
+    overflow: hidden;
+    border: 5px solid #fff;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.slayder .images {
+    width: 85%;
+    height: 100%;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+}
+
+.furniture {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.pc {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+.audio {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+.tv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+.kitchen {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+.caantiner {
+    width: 84%;
+    margin: 0 auto;
+    padding: 40px 0px;
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box {
+    width: 240px;
+    height: 430px;
+    border-radius: 12px;
+    background: rgb(240, 240, 240) ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.5s;
+
+}
+
+.one {
+    width: 100%;
+    height: 65%;
+    background-color: white;
+
+}
+.one img {
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+
+}
+
+.box:hover {
+    /* transform: scale(1.1); */
+    box-shadow: 0px 5px 5px 5px gray;
+}
+
+
+.two {
+    width: 100%;
+    padding: 0px 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    height: 35%;
+
+}
+
+.star {
+    width: 15px;
+}
+
+.osenkispan {
+    color: rgb(162, 162, 162);
+}
+
+.osenki {
+    display: flex;
+    gap: 10px;
+}
+
+.two_two {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    height: 60%;
+    gap: 10px;
+
+}
+
+
+.kredit {
+    background-color: rgb(252, 252, 14);
+    width: 120px;
+    padding: 1px;
+}
+.two_span_div {
+    height: 40%;
+}
+
+.summa {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.starayasena {
+    color: rgb(162, 162, 162);
+    text-decoration: line-through;
+
+}
+
+.lovecha {
+    width: 12px;
+    position: absolute;
+    top: 200px;
+}
+.noviy-god {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0px;
+
+}
+
+.noviygod {
+    width: 100%;
+    border-radius: 10px;
+    transition: 3s;
+}
+
+
+.modal_katalog {
+    width: 100%;
+    height: 87vh;
+    position: absolute;
+    top: 109px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.menu_katalog {
+    width: 100%;
+    background-color: white;
+    height: 60%;
+    display: flex;
+    gap: 15px;
+    padding: 40px 410px;
+}
+
+.bbbb {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-top: 14px;
+}
+.none {
+    display: none;
+}
+
+.relo10 {
+    width: 90px;
+    height: 18px;
+    background-color: rgba(112, 0, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+.relo101 {
+    width: 90px;
+    height: 18px;
+    background-color: rgba(112, 0, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin-left: -100px;
+}
+.relo102 {
+    width: 90px;
+    height: 18px;
+    background-color: rgba(112, 0, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin-left: -60px;
+}
+.relo103 {
+    width: 90px;
+    height: 18px;
+    background-color: rgba(112, 0, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin-left: -100px;
+}
+.relo104 {
+    width: 90px;
+    height: 18px;
+    background-color: rgba(112, 0, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin-left: -30px;
+}
+.reloa {
+    display: flex;
+    align-items: center;
+}
+
+.boxes {
+    width: 100%;
+    padding: 30px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+
+}
+
+.glavniy_div {
+    width: 450px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 0.1px solid black;
+    position: absolute;
+    top: 95px ;
+    right: 534px ;
+    background-color: rgb(255, 255, 255);
+}
+
+.vvvv {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.containerrrr {
+    width: 100%;
+    padding: 0px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.element {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    height: 569px;
+    padding: 20px 0px;
+
+}
+
+.one-element {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+.two-element {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25.5px;
+
+}
+
+.first {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 0.1px dashed black;
+    padding: 7px;
+    border-radius: 7px;
+
+}
+.second {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px dashed black;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.first-images {
+    width: 100%;
+    height: 160px;
+    border: 0.1px solid black;
+    border-radius: 10px;
+
+}
+.second-images {
+    width: 100%;
+    height: 100%;
+}
+
+.ashtuk {
+    width: 120px;
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    padding: 6px 12px;
+    font-size: 29px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.asena {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.otsenki-span {
+    color: gray;
+}
+
+.prodaves {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.yag {
+    display: flex;
+    gap: 40px;
+}
+
+.du {
+    display: flex;
+    gap: 40px;
+}
+
+.asena-sena-skidka {
+    color: gray;
+    text-decoration: line-through;
+}
+.hrrrr {
+    width: 648px;
+    height: 1px;
+    background: gray;
+}
+.prosto {
+    display: flex;
+    gap: 30px;
+    border-radius: 2px;
+}
+
+.rasprodaja {
+    width: 250px;
+    padding: 12px 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.sena-rasprodaji {
+    width: 70%;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokupka {
+    display: flex;
+    gap: 30px;
+}
+.dob-kar {
+    width: 176px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 4px ;
+    background: #7000FF;
+    color: white;
+}
+
+.dob-izb {
+    width: 176px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #7000FF;  
+    color: #7000FF;  
+}
+
+
+.karzinka {
+    width: 100%;
+    padding: 30px 120px;
+    display: flex;
+}
+
+.boxi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.reload {
+    width: 950px;
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.img {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.reload_img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.left {
+    padding: 6px;
+    display:flex ;
+    flex-direction: column;
+    gap: 4px;
+    width: 75%;
+ 
+}
+.left-one {
+    width: 100%;
+    height: 37%;
+
+}
+.left-two {
+    width: 100%;
+    height: 63%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    
+}
+
+.pilus-minus {
+    border: 1px solid black;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding: 4px 0px;
+}
+
+.title_karzinka {
+    font-size: 30px;
+    font-weight: 500;
+}
+body {
+    background-color: #f8f8f8;
+}
+
+.delete-karzinka {
+    width: 15%;
+    padding: 4px;
+    background-color: #7000FF;
+    color: white;
+    border: none;
+}
+.seni {
+
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 10px 20px;
+    background-color: white;
+    height: 31vh;
+    border-radius: 10px;
+    position: fixed;
+    left: 1101px;
+    top: 285px;
+}
+
+.seni span {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.oformit {
+    width: 100%;
+    background-color: #7000FF;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    border:  none;
+}
+.kut {
+    width: 100%;
+    display: flex;
+    gap: 300px;
+}
